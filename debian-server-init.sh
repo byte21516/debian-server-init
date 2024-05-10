@@ -6,6 +6,7 @@ sleep 3
 
 apt install unattended-upgrades -y
 apt install ufw -y
+apt install sudo -y
 
 systemctl enable unattended-upgrades
 
@@ -17,3 +18,4 @@ if [ "$action" = y ] || [ "$action" = Y ]; then
 else
     echo "Script execution completed."
 fi
+
