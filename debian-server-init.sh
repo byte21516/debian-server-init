@@ -7,6 +7,7 @@ sleep 3
 apt install unattended-upgrades -y
 apt install ufw -y
 apt install sudo -y
+apt install curl -y
 
 systemctl enable unattended-upgrades
 
